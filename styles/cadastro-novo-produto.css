@@ -72,7 +72,7 @@ label {
 }
 
 textarea {
-
+    font-family: proxima-nova;
     height: 142px;
     width: 100%;
     resize: none;
@@ -92,11 +92,15 @@ input {
     box-sizing: border-box;
 }
 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
 
 /* ########### Botões ########### */
 
 .container-button {
-    width: 340px;
+    max-width: 340px;
 }
 
 .button-primary {
@@ -144,6 +148,32 @@ input {
 
 @media (max-width: 720px) {
     .container-infos{
+        max-width: 100%;
         gap: 20px;
     }
+
+    .container-right {
+        width:100%;
+    }
+
+    .container-left {
+        width: 100%;
+    }
+
+    .container-button {
+        width: 100%;
+    }
+
+    .container-button {
+        max-width: 100%;
+    }
+
+    .container-sku-valor {
+        width: 100%;
+    }
+
+    .input-width{
+        width: 100%;
+    }
+   
 }
