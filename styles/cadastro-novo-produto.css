@@ -1,0 +1,149 @@
+/* ########### CADASTRO DE PRODUTO ########### */
+
+/* body {
+    background-image: url(../assets/images/Cadastrar\ novo\ produto\ –\ 1.jpg);
+    background-repeat: no-repeat;
+    
+} */
+
+/* ########### Container para alinhar no centro ########### */
+
+section {
+    margin: 0 20px;
+}
+
+.container-aligned-center{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+/* ########### Container com todos labels e inputs ########### */
+
+.container-infos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 50px;
+}
+
+/* ########### Título da página ########### */
+
+
+#arrow {
+    width: 8px;
+}
+
+.main-title {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 16px;
+}
+
+h1 {
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* ########### Container da esquerda  ########### */
+
+.container-left {
+    width: 334px;
+}
+
+.container-sku-valor {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* ########### Container da direita  ########### */
+
+.container-right {
+    width: 334px;
+}
+
+label {
+    font-family: proxima-nova;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+
+    height: 142px;
+    width: 100%;
+    resize: none;
+    border-radius: 4px;
+    border: #CCCCCC solid 1px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+
+input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: #CCCCCC solid 1px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+
+/* ########### Botões ########### */
+
+.container-button {
+    width: 340px;
+}
+
+.button-primary {
+    width: 100%;
+    height: 47px;
+    display: block;
+    background-color: #141414;
+    color: white;
+    margin-top: 30px;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.button-primary:hover {
+    background-color: #141414e4;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button-secondary {
+    width: 100%;
+    height: 47px;
+    display: block;
+    background-color: #ffffff;
+    border: #141414 solid 1px;
+    color: #141414;
+    margin-top: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem; 
+}
+
+.button-secondary:hover {
+    border: #CCCCCC solid 1px;
+    color: #14141488;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+/* ########### Responsivo ########### */
+
+@media (max-width: 720px) {
+    .container-infos{
+        gap: 20px;
+    }
+}
