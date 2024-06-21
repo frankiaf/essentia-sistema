@@ -146,7 +146,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* ########### Responsivo ########### */
 
-@media (max-width: 720px) {
+@media (max-width: 765px) {
     .container-infos{
         max-width: 100%;
         gap: 20px;

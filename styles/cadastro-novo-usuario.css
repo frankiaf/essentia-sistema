@@ -1,9 +1,9 @@
 
 
-/* ########### CADASTRO DE CLIENTE ########### */
+/* ########### CADASTRO DE NOVO USUÁRIO ########### */
 
 /* body{
-    background-image: url(../assets/images/Cadastrar\ novo\ cliente\ –\ 1.jpg);
+    background-image: url(../assets/images/Adicionar\ novo\ usuario\ –\ 1.jpg);
     background-repeat: no-repeat;
 } */
 
@@ -16,16 +16,12 @@ section {
     max-width: 1100px;
 }
 
-
 .container-infos {
+    max-width: 720px;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 50px;
     row-gap: 20px;
-}
-
-.register-container {
-    max-width: 720px;
 }
 
 .main-title {
@@ -43,7 +39,6 @@ h1 {
     font-weight: 600;
     font-size: 1.25rem;
 }
-
 
 label {
     font-family: proxima-nova;
@@ -69,8 +64,6 @@ input[type="number"]::-webkit-inner-spin-button {
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px white inset;
 }
-
-
 
 button {
     width: 100%;
@@ -117,6 +110,11 @@ button:hover {
 
     .container-infos {
         grid-template-columns: auto ;
+    }
+
+    button {
+        margin-top: -10px;
+
     }
 
 }
