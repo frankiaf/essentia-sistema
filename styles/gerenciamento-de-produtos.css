@@ -126,7 +126,7 @@ thead tr th:last-child {
     border-radius: 0 4px 0 0;
 }
 
-tr:not(:first-child):nth-last-of-type(odd) {
+tr:nth-of-type(even) {
     background-color: #F0F0F0;
 }
 
